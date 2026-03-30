@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jorman Delgado | Emprendimiento y Tiflotecnología Accesible</title>
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f7f6; color: #333; }
+        .container { max-width: 600px; margin: auto; padding: 15px; }
+        
+        header { text-align: center; padding: 40px 20px; background: white; border-radius: 0 0 30px 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        h1 { margin: 0; color: #1a73e8; font-size: 2em; }
+        .frase-impacto { font-style: italic; color: #555; margin-top: 15px; line-height: 1.5; padding: 0 10px; }
+
+        /* SECCIÓN 1: PULPAS (Fondo: pendon fondo.jpg) */
+        .seccion-pulpa {
+            margin-top: 25px;
+            background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('pendon fondo.jpg');
+            background-size: cover; background-position: center;
+            border-radius: 25px; padding: 25px; color: white; text-align: center;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+        /* Imagen Hiperrealista (Foto: pulpahiperrealista.png) */
+        .img-hiper { width: 100%; border-radius: 15px; border: 3px solid #fff; margin-bottom: 20px; }
+
+        /* SECCIÓN 2: TECNOLOGÍA (Fondo: Jormantiflotecnología.jpeg) */
+        .seccion-tecnologia {
+            margin-top: 25px;
+            background-image: linear-gradient(rgba(10, 40, 80, 0.9), rgba(10, 40, 80, 0.9)), url('Jormantiflotecnología.jpeg');
+            background-size: cover; background-position: center;
+            border-radius: 25px; padding: 25px; color: white; text-align: center;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+
+        /* Lista de Servicios Accesible (AQUÍ ESTÁ TU NUEVO SERVICIO) */
+        .lista-servicios { 
+            text-align: left; 
+            background: rgba(255,255,255,0.1); 
+            padding: 20px; 
+            border-radius: 15px; 
+            margin: 20px 0; 
+            list-style: none; 
+            border-left: 5px solid #ff5722;
+        }
+        .lista-servicios li { margin-bottom: 12px; font-size: 1.05em; line-height: 1.4; }
+
+        /* Botones Universales */
+        .btn { display: block; padding: 18px; margin: 12px 0; border-radius: 15px; text-decoration: none; font-weight: bold; font-size: 1.1em; transition: 0.3s; text-align: center; }
+        .btn-whatsapp { background-color: #25d366; color: white; }
+        .btn-calendly { background-color: #ff5722; color: white; }
+        .btn-redes { background-color: rgba(255,255,255,0.2); color: white; font-size: 0.9em; display: inline-block; padding: 10px 15px; margin: 5px; border-radius: 30px; text-decoration: none; }
+        
+        footer { text-align: center; padding: 30px; font-size: 0.8em; color: #777; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Jorman Delgado</h1>
+        <p class="frase-impacto">"Veo el mundo a través de la tecnología y lo disfruto con el sabor de lo natural."</p>
+    </header>
+
+    <main>
+        <section class="seccion-pulpa" aria-label="Sección de ventas de pulpas de fruta natural">
+            <img src="pulpahiperrealista.png" alt="Imagen fotorrealista de frutas frescas" class="img-hiper">
+            <h2>@llevelapulpa</h2>
+            <p>Pulpas 100% naturales para refrescar tu vida.</p>
+            
+            <a href="https://calendly.com/djormanisaac/30min" class="btn btn-calendly" aria-label="Agendar llamada de negocios sobre pulpas">
+                📅 Agendar Llamada de Negocios
+            </a>
+
+            <a href="https://wa.me/584126303532?text=Hola%20Jorman,%20vi%20tu%20página%20y%20quiero%20pedir%20pulpas" class="btn btn-whatsapp" aria-label="Hacer pedido de pulpas por WhatsApp">
+                🛒 Pedir por WhatsApp
+            </a>
+
+            <div style="margin-top: 15px;">
+                <a href="https://www.tiktok.com/@llevelapulpadefrutas" class="btn-redes">TikTok</a>
+                <a href="https://www.instagram.com/llevelapulpa" class="btn-redes">Instagram</a>
+                <a href="https://www.facebook.com/llevelapulpa" class="btn-redes">Facebook</a>
+            </div>
+        </section>
+
+        <section class="seccion-tecnologia" aria-label="Sección de Taller de Tiflotecnología y Creación Digital">
+            <h2 style="color: #ff5722;">Taller de Tiflotecnología</h2>
+            <p>Formación especializada en creación digital y accesibilidad.</p>
+
+            <ul class="lista-servicios" aria-label="Lista completa de servicios ofrecidos en el taller">
+                <li>🌐 <strong>Desarrollo Web Accesible:</strong> Creación de páginas accesibles y optimizadas para lectores de pantalla.</li>
+                <li>📱 <strong>Tecnología Móvil:</strong> Configuración de Android 8.1+ y lectores de pantalla (Jieshuo/TalkBack).</li>
+                <li>🎬 <strong>Creación de Contenido:</strong> Edición de Reels, TikTok, YouTube, subtítulos y bots.</li>
+                <li>💰 <strong>Banca Digital:</strong> Pago Móvil, Zinli, PayPal y transferencias seguras.</li>
+                <li>⚙️ <strong>Herramientas Pro:</strong> TikFinity, OBS Studio, Studio Live y Reaper.</li>
+                <li>🧠 <strong>Inteligencia Artificial:</strong> Música, imágenes y redacción de Prompts.</li>
+                <li>📄 <strong>Ofimática:</strong> Manejo de Word, Excel y PDF con lectores de pantalla.</li>
+                <li>🎤 <strong>Asesoría Personalizada:</strong> Atención a domicilio o virtual en horario a convenir.</li>
+            </ul>
+
+            <a href="https://calendly.com/djormanisaac/30min" class="btn btn-calendly" aria-label="Agendar llamada de asesoría técnica">
+                📅 Agendar Llamada Gratis
+            </a>
+            
+            <a href="https://wa.me/584126303532?text=Hola%20Jorman,%20me%20interesa%20inscribirme%20en%20tu%20taller" class="btn btn-whatsapp" aria-label="Consultar sobre el taller por WhatsApp">
+                💬 Consultar por WhatsApp
+            </a>
+
+            <div style="margin-top: 15px;">
+                <a href="https://www.tiktok.com/@comolohagoentiktok" class="btn-redes">TikTok</a>
+                <a href="https://www.instagram.com/jormanstudiopro" class="btn-redes">Instagram</a>
+                <a href="https://www.youtube.com/@Comolohagojormandelgado" class="btn-redes">YouTube</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Caracas, Venezuela | WhatsApp: +58 412-6303532</p>
+        <p>© 2026 Diseñado por Jorman Delgado - Accesibilidad para todos</p>
+    </footer>
+</div>
+
+</body>
+</html>
